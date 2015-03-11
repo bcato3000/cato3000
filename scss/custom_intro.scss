@@ -1,0 +1,19 @@
+.intro {
+	text-align: center;
+	background: #efefef;
+	@media only screen and (min-width: 0) {
+		padding: 20px 0;
+    }
+    @media only screen and (min-width: 768px) {
+		padding: 40px 0;
+    }
+	h2 {
+		margin: 0;
+		@media only screen and (min-width: 0) {
+			font-size: 24px;
+	    }
+	    @media only screen and (min-width: 768px) {
+			font-size: 48px;
+	    }
+	}
+}

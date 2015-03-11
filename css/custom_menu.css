@@ -1,0 +1,24 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  overflow-x: hidden;
+  overflow-y: scroll; }
+  .menu ul {
+    margin: 100px 0 0 0;
+    padding: 0; }
+    .menu ul li {
+      display: block;
+      list-style: none;
+      font-size: 30px;
+      text-align: right; }
+      .menu ul li a {
+        display: block;
+        padding: 10px 0; }
+        .menu ul li a:hover {
+          color: #808080; }
+      .menu ul li:hover {
+        background: #eee; }

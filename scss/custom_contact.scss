@@ -1,0 +1,56 @@
+img {
+	&.contact {
+		position: relative;
+		display: block;
+		max-width: 100%;
+		margin: 0 auto;
+	}
+}
+p {
+	&.italic {
+		font-size: 20px;
+		font-style: italic;
+	}
+}
+.slide-from-left, .slide-from-right {
+	position: relative;
+}
+.contact-info {
+	margin: 0 0 50px 0;
+	padding: 0;
+	li {
+		list-style: none;
+		@media only screen and (min-width: 0) {
+			font-size: 20px;
+	    }
+	    @media only screen and (min-width: 768px) {
+			font-size: 36px;
+	    }
+	}
+}
+.about {
+	background: #eee;
+	padding: 50px 0;
+	p {
+		font-size: 22px;
+		margin: 0;
+	}
+}
+span {
+	&.blue {
+		color: #58bbce;
+		font-weight: 600;
+	}
+	&.purple {
+		color: #ff92b2;
+		font-weight: 600;
+	}
+	&.green {
+		color: #4cee77;
+		font-weight: 600;
+	}
+	&.orange {
+		color: #ffc054;
+		font-weight: 600;
+	}
+}

@@ -1,0 +1,54 @@
+.carousel {
+	position: relative;
+	z-index: 1;
+	.flexslider {
+		background: transparent;
+		border: none;
+		box-shadow: none;
+		@media only screen and (min-width: 0) {
+			margin: 45px 0 0 0;
+	    }
+	    @media only screen and (min-width: 768px) {
+			margin: 20px 0 0 0;
+	    }
+	    @media only screen and (min-width: 1024px) {
+			margin: 0;
+	    }
+	    ul {
+	    	li {
+	    		list-style: none;
+	    	}
+	    }
+	}
+	.flex-direction-nav {
+		a {
+			color: #4a4a4a;
+		}
+	    .flex-prev {
+			width: 31px;
+			height: 55px;
+			background: url('../img/chevron_gray_left.svg');
+			content: "";
+			text-indent: -9999px;
+			top: 45%;
+			left: 5px;
+			opacity: 1;
+			&:hover {
+				opacity: .7;
+			}
+	    }
+	    .flex-next {
+			width: 31px;
+			height: 55px;
+			background: url('../img/chevron_gray_right.svg');
+			content: "";
+			text-indent: 9999px;
+			top: 45%;
+			right: 5px;
+			opacity: 1;
+			&:hover {
+				opacity: .7;
+			}
+	    }
+	}
+}

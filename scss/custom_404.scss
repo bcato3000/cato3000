@@ -1,0 +1,17 @@
+.wtf-wrapper {
+	margin: 100px 0 0 0;
+	p {
+		font-size: 22px;
+		text-align: center;
+		margin: 0;
+		&.fourOfour {
+			line-height: 1em;
+			@media only screen and (min-width: 0) {
+				font-size: 22vmax;
+		    }
+		    @media only screen and (min-width: 768px) {
+				font-size: 36vmax;
+		    }
+		}
+	}
+}
