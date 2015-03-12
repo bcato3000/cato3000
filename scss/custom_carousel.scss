@@ -21,34 +21,25 @@
 	    }
 	}
 	.flex-direction-nav {
-		a {
-			color: #4a4a4a;
-		}
-	    .flex-prev {
+	    .flex-prev, .flex-next {
 			width: 31px;
 			height: 55px;
-			background: url('../img/chevron_gray_left.svg');
 			content: "";
-			text-indent: -9999px;
 			top: 45%;
-			left: 5px;
 			opacity: 1;
 			&:hover {
-				opacity: .7;
+				opacity: 0.7;
 			}
 	    }
+	    .flex-prev {
+			background: url('../img/chevron_gray_left.svg');
+			text-indent: -9999px;
+			left: 5px;
+	    }
 	    .flex-next {
-			width: 31px;
-			height: 55px;
 			background: url('../img/chevron_gray_right.svg');
-			content: "";
 			text-indent: 9999px;
-			top: 45%;
 			right: 5px;
-			opacity: 1;
-			&:hover {
-				opacity: .7;
-			}
 	    }
 	}
 }

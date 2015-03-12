@@ -9,11 +9,11 @@ body {
 	height: 100%;
 }
 .container, .intro {
-	-webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+	-webkit-animation: fadein 3s;
+	-moz-animation: fadein 3s;
+	-ms-animation: fadein 3s;
+	-o-animation: fadein 3s;
+	animation: fadein 3s;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -45,20 +45,17 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, p {
-	color: #808080;
+	color: $dark_grey;
 	span {
-		color: #1eaed3;
+		color: $main_blue;
 	}
 }
 a {
-	color: #1eaed3;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-  	-o-transition: all 0.3s ease-in-out;
-  	transition: all 0.3s ease-in-out;
+	color: $main_blue;
+	@include transition(0.3s);
 	&:hover {
-		color: #1eaed3;
-		opacity: .75;
+		color: $main_blue;
+		opacity: 0.75;
 	}
 	&.align-right {
 		position: absolute;
@@ -74,15 +71,13 @@ ul {
 }
 .button {
 	background: transparent;
-	border: 2px solid #ccc;
+	border: 2px solid $medium_grey;
 	font-weight: 300;
-	color: #17add6;
+	color: $main_blue;
 	text-transform: lowercase;
 	margin: 0;
 	padding: 10px 30px;
-	-webkit-transition: all 0.3s ease-in-out;
-  	-o-transition: all 0.3s ease-in-out;
-  	transition: all 0.3s ease-in-out;
+	@include transition(0.3s);
 	@media only screen and (min-width: 0) {
 		font-size: 24px;
     }
@@ -90,15 +85,15 @@ ul {
 		font-size: 32px;
     }
     &:hover {
-    	color: #fff;
-        background: #333;
-        border: 2px solid #333;
+    	color: $main_white;
+        background: $main_black;
+        border: 2px solid $main_black;
     }
 }
 .block {
 	margin: 100px 0;
 	h4 {
-		background: #eee;
+		background: $light_grey;
 		margin: 0 0 20px 0;
 		padding: 20px;
 	}

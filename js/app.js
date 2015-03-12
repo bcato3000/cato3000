@@ -44,7 +44,7 @@
       workHover = function() {
         var background = $('.background'),
             foreground = $('.foreground');
-        TweenMax.set(foreground, {scale: 0});
+        TweenMax.set(foreground, {opacity: 0, scale: .65});
 
         $(background).on('mouseenter', foreground, function(){
           $(this).closest(background).find(foreground).showText();
@@ -54,14 +54,14 @@
         });
 
         $.fn.showText = function() {
-          TweenMax.to($(this), .65, {opacity: 1});
-          TweenMax.to($(this), .65, {scale: 1});
+          TweenMax.to($(this), .5, {opacity: 1});
+          TweenMax.to($(this), .5, {scale: 1});
           return this;
         };
 
         $.fn.hideText = function() {
-          TweenMax.to(foreground, .65, {opacity: 0});
-          TweenMax.to(foreground, .65, {scale: 0});
+          TweenMax.to(foreground, .5, {opacity: 0});
+          TweenMax.to(foreground, .5, {scale: .65});
           return this;
         };
 

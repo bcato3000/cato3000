@@ -9,12 +9,12 @@
 		text-align: center;
 	}
 	h5, p {
-		color: #ccc;
+		color: $medium_grey;
 	}
 	h4 {
 		font-family: 'Dorsa', sans-serif;
-		color: #fff;
-		line-height: .8em;
+		color: $main_white;
+		line-height: 0.8em;
 		@media only screen and (min-width: 0) {
 			font-size: 75px;
 	    }
@@ -34,12 +34,12 @@
 		margin-bottom: 40px;
 	}
 	.button {
-		border: 2px solid #fff;
-		color: #ccc;
+		border: 2px solid $main_white;
+		color: $medium_grey;
         &:hover {
-            background: #fff;
-            border: 2px solid #fff;
-            color: #333;
+            background: $main_white;
+            border: 2px solid $main_white;
+            color: $main_black;
         }
 	}
 }
