@@ -5,7 +5,7 @@ img {
 		max-width: 100%;
 		margin: 0 auto;
 	}
-}
+} 
 p {
 	&.italic {
 		font-size: 20px;
@@ -34,23 +34,5 @@ p {
 	p {
 		font-size: 22px;
 		margin: 0;
-	}
-}
-span {
-	&.blue {
-		color: #58bbce;
-		font-weight: 600;
-	}
-	&.purple {
-		color: #ff92b2;
-		font-weight: 600;
-	}
-	&.green {
-		color: #4cee77;
-		font-weight: 600;
-	}
-	&.orange {
-		color: #ffc054;
-		font-weight: 600;
 	}
 }

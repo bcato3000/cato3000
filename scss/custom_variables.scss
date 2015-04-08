@@ -4,3 +4,20 @@ $main_black: #333333;
 $light_grey: #efefef;
 $medium_grey: #cccccc;
 $dark_grey: #808080;
+
+$hi-lites: (
+	blueC: (#58bbce, 600),
+	purpleC: (#ff92b2, 600),
+	greenC: (#4cee77, 600),
+	orangeC: (#ffc054, 600)
+);
+
+@each $name, $style in $hi-lites {
+	$fontcolor: nth($style, 1);
+	$fontweight: nth($style, 2);
+
+	.highlight--#{$name} {
+		color: $fontcolor;
+		font-weight: $fontweight;
+	}
+}
