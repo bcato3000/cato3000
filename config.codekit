@@ -669,7 +669,7 @@
 		"outputPathIsSetByUser": 0
 		},
 	"\/scss\/custom_404.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -685,7 +685,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_background.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -701,7 +701,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_carousel.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -717,7 +717,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_contact.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -733,7 +733,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_container.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -749,7 +749,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_content.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -765,7 +765,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_footer.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -781,7 +781,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_header.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -797,7 +797,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_highlight.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -813,7 +813,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_intro.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -829,7 +829,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_layout.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -845,7 +845,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_menu.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -861,7 +861,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_mixins.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -877,7 +877,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_outro.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -893,7 +893,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_variables.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -909,7 +909,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/custom_work.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -925,7 +925,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/foundation\/foundation.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -941,7 +941,7 @@
 		"useLibsass": 0
 		},
 	"\/scss\/main.scss": {
-		"createSourceMap": 0,
+		"createSourceMap": 1,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
@@ -1587,7 +1587,7 @@
 	"sassAutoOutputPathReplace1": "sass",
 	"sassAutoOutputPathReplace2": "css",
 	"sassAutoOutputPathStyle": 2,
-	"sassCreateSourceMap": 0,
+	"sassCreateSourceMap": 1,
 	"sassDebugStyle": 0,
 	"sassDecimalPrecision": 10,
 	"sassOutputStyle": 0,
